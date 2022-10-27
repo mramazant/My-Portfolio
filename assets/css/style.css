@@ -1,0 +1,144 @@
+/* import font-family */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+
+
+
+/* attributes of navigation bar */
+.header .navbar{
+    
+    background-color: #23a6d5;
+    width: 100%;
+    height: 70px;
+}
+/* position of ul */
+.navbar ul {
+    float: right;
+    margin-right: 20px;
+    margin-top: -50px;
+}
+/* position of li */
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    line-height: -30px;
+}
+/* attributes of name id */
+#name {
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+/* attributes of text part in navbar  */
+.navbar #name {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+
+/* navbar element a attributes */
+.navbar ul li a {
+    color: white;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: roboto;
+    text-decoration: none;
+}
+/* animation of the links in navbar */
+.navbar ul li a:hover {
+    background: #ee7752;
+    border-radius: 5px;
+}
+/* attributes of container */
+.container{
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    position: relative;
+} 
+
+/* position and attributes of aside */
+.aside{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 75px;
+    border: 1px;
+    flex-direction: column;
+    border-color: black;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-style: groove;
+}
+
+.aside ul {
+    float: unset;
+}
+
+.aside ul li{
+    font-size: 18px;
+    margin-left: 0;
+}
+
+/* attributes main container */
+.main{
+    width: 100%;
+    position: relative; 
+    margin-left: 10px; 
+    flex-wrap: wrap;
+    display: flex;
+}
+/* animaton */
+.main img :hover{
+transform: 1.8;
+
+}
+/* text style of a elements in main section */
+.main a{
+    font-size: 26px;
+    text-decoration: none;  
+}
+/* animation of a elements in main section */
+.main a:hover{
+    opacity: 0.5;
+    transition: opacity 0.4s;
+    transform: 1.8;
+        
+}
+/* text style of p elements in aboutme */
+.aboutMe p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+/* aattributes of contact part */
+.contact{
+    background-color: aqua;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: inline-block;
+    display: flex;
+    font-size: 26px;
+    margin-left: 75px;
+    border-style: groove;
+    background-size: cover;
+    background-position: center;
+}
+/* position and text style of a elements in contact */
+.contact a{
+    text-decoration: none;
+    margin-top: 25px;
+}
+/* animation of a elements in contact */
+.contact a:hover{
+    background-color: rgb(118, 148, 175);
+    font-size: 22px;
+    border-style: double;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* attributes of ul li elements in contact */
+.contact ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px; 
+    margin-left: 125px;   
+}
